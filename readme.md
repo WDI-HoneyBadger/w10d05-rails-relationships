@@ -104,6 +104,8 @@ Rails.application.routes.draw do
 end
 ```
 which would give us:
+
+
 |method|route|result|
 |------|-----|------|
 |GET|/artists|get all artists|
@@ -111,7 +113,7 @@ which would give us:
 |GET|/artists/:id|get an artist by id|
 |PUT|/artists/:id|update an artist|
 |DELETE|/artists/:id|delete an artist|
-|||
+||||
 |GET|/albums|get all albums|
 |POST|/albums|create an album|
 |GET|/albums/:id|get an album by id|
@@ -128,6 +130,8 @@ Rails.application.routes.draw do
 end
 ```
 which would give us:
+
+
 |method|route|result|
 |------|-----|-----|
 |GET|/artists|get all artists|
@@ -135,7 +139,7 @@ which would give us:
 |GET|/artists/:id|get an artist by id|
 |PUT|/artists/:id|update an artist|
 |DELETE|/artists/:id|delete an artist|
-|||
+||||
 |GET|/artists/:artist_id/albums|get albums by an artist|
 |POST|/artists/:artist_id/albums|create an album belonging to an artist|
 |GET|/artists/:artist_id/albums/:id|get an album by artist id and album id|
@@ -151,6 +155,8 @@ Rails.application.routes.draw do
 end
 ```
 which would give us:
+
+
 |method|route|result|
 |------|-----|-----|
 |GET|/artists|get all artists|
@@ -158,7 +164,7 @@ which would give us:
 |GET|/artists/:id|get an artist by id|
 |PUT|/artists/:id|update an artist|
 |DELETE|/artists/:id|delete an artist|
-|||
+||||
 |GET|/artists/:artist_id/albums|get albums by an artist|
 |POST|/artists/:artist_id/albums|create an album belonging to an artist|
 |GET|/albums/:id|get an album by id|
@@ -177,6 +183,8 @@ Rails.application.routes.draw do
 end
 ```
 which would give us:
+
+
 |method|route|result|
 |------|-----|-----|
 |GET|/artists|get all artists|
@@ -190,5 +198,5 @@ which would give us:
 |GET|/albums/:id|get an album by id|
 |PUT|/albums/:id|update an album|
 |DELETE|/albums/:id|delete an album|
-|||
+||||
 |GET|/albums|get all albums|
